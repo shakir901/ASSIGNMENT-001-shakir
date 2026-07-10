@@ -1,0 +1,820 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+     font-family: "Inter", sans-serif;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar{
+
+    width:100%;
+    height:60px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 70px;
+    
+
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    margin-top: auto;
+}
+
+.nav-links{
+    display:flex;
+    gap:35px;
+    list-style:none;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-links a{
+    text-decoration:none;
+     color: #575757;
+    font-size:15px;
+
+}
+.btn{
+    text-decoration:none;
+    color:white;
+    background:#1D4ED8;
+    padding:14px 30px;
+    border-radius:8px;
+    font-weight:600;
+     margin-top: auto;
+   
+    
+}
+.btn:hover{
+    background:#173fc0;
+}
+
+
+
+/* ----- HERO ----- */
+
+.hero{
+    
+    width:100%;
+    height:95vh;
+    margin:20px auto;
+ background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("B14-A01-DevConf-2026/assets/banner.jpg");
+    
+    background-size:cover;
+    background-position:center;
+    color:white;
+
+}
+
+.hero-content{
+
+    width:750px;
+    margin:auto;
+    text-align:center;
+    padding-top:140px;
+
+}
+
+.hero-content h1{
+    display: flex;
+    flex-direction: row;
+    font-size:70px;
+    margin-bottom:30px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.hero-content span{
+    font-style:italic;
+}
+
+.hero-content p{
+
+    width:680px;
+    margin:auto;
+    font-size:22px;
+    line-height: 24px;
+    color:#ececec;
+}
+
+.hero-btn{
+
+    display:inline-block;
+    margin-top:200px;
+    text-decoration:none;
+    color:white;
+    background:#2454e6;
+    padding:18px 45px;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+.hero-btn:hover{
+    background:#173fc0;
+}
+
+
+ /* <!-- ---speakers section -- --> */
+
+.speakers{
+    padding: 80px 0;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 50px;
+}
+
+.speaker-container{
+    width: 88%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.speaker-card{
+   
+    border: 1px solid #e6e4e4;
+    border-radius: 15px;
+     
+}
+
+
+.speaker-card img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+
+.speaker-info{
+    padding: 18px;
+}
+
+.speaker-info span{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #2563EB;
+    margin-bottom: 10px;
+}
+
+.speaker-info h3{
+    font-size: 28px;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.speaker-info p{
+    font-size: 15px;
+    color: #777;
+}
+
+
+/* ---pricing-- */
+
+.pricing{
+    width: 90%;
+    margin: 80px auto;
+}
+
+.pricing h2{
+    text-align: center;
+    font-size: 48px;
+    color: #0D1B2A;
+}
+
+.pricing-text{
+    text-align: center;
+    color: #575757;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.pricing-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+ 
+}
+
+.card h5{
+    color: #575757;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.card h3{
+    font-size: 52px;
+    color: #172437;
+}
+
+.card span{
+    color: #575757;
+    font-size: 14px;
+}
+
+.card hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+.card ul{
+    padding-left: 18px;
+}
+
+.card ul li{
+    margin-bottom: 12px;
+    color: #0D1B2A;
+    font-size: 14px;
+}
+
+.card button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: 1px solid #2563EB;
+    background: white;
+    color: #2563EB;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* pro Card */
+
+.pro{
+    background: #0D1B2A;
+    color: white;
+}
+
+.pro h3,.pro h5,.pro span,.pro ul li{
+    color: white;
+}
+
+.pro hr{
+    border-top: 1px solid white;
+}
+
+.pro button{
+    background: #2563EB;
+    color: white;
+    border: none;
+}
+
+
+
+ 
+
+/* ---AI Part--------------------------------------------------------------------------------------------------------------------------- */
+
+/* ==========================
+        AI INNOVATION ARENA
+========================== */
+
+.arena{
+    width: 100%;
+    padding: 100px 8%;
+    background: #08111f;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Glow */
+
+.arena-bg{
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle,#2357ff33,transparent 70%);
+    position: absolute;
+    top: -220px;
+    left: -180px;
+    z-index: 0;
+}
+
+.arena-heading,
+.arena-stats,
+.challenge-area,
+.countdown-section,
+.arena-bottom{
+    position: relative;
+    z-index: 2;
+}
+
+/* Heading */
+
+.tag{
+
+    display: inline-block;
+    background: rgba(59,130,246,.15);
+    color: #69a2ff;
+
+    padding: 8px 18px;
+
+    border-radius: 50px;
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+}
+
+.arena-heading{
+
+    width: 700px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.arena-heading h2{
+
+    font-size: 56px;
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.arena-heading p{
+
+    color: #b9c3d1;
+
+    line-height: 30px;
+
+    font-size: 18px;
+}
+
+/* Statistics */
+
+.arena-stats{
+
+    margin-top: 70px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.stat-box{
+
+    width: 220px;
+
+    padding: 28px;
+
+    background: rgba(255,255,255,.04);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 16px;
+
+    text-align: center;
+
+    backdrop-filter: blur(10px);
+}
+
+.stat-box h3{
+
+    font-size: 38px;
+
+    color: #4c83ff;
+
+    margin-bottom: 10px;
+}
+
+.stat-box span{
+
+    color: #d2d9e3;
+
+    font-size: 15px;
+}
+
+/* Challenge Cards */
+
+.challenge-area{
+
+    margin-top: 70px;
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 30px;
+}
+
+.challenge-card{
+
+    background: rgba(255,255,255,.04);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    backdrop-filter: blur(12px);
+}
+
+.icon{
+
+    width: 70px;
+
+    height: 70px;
+
+    border-radius: 50%;
+
+    background: rgba(59,130,246,.18);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 32px;
+
+    margin-bottom: 25px;
+}
+
+.challenge-card h3{
+
+    color: white;
+
+    font-size: 28px;
+
+    margin-bottom: 18px;
+}
+
+.challenge-card p{
+
+    color: #c3cedc;
+
+    line-height: 28px;
+
+    margin-bottom: 28px;
+}
+
+/* Progress */
+
+.progress{
+
+    width: 100%;
+
+    height: 10px;
+
+    background: rgba(255,255,255,.08);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+
+    height: 100%;
+
+    border-radius: 20px;
+
+    background: #3b82f6;
+}
+
+.one{
+    width:82%;
+}
+
+.two{
+    width:63%;
+}
+
+.three{
+    width:95%;
+}
+
+.four{
+    width:100%;
+}
+
+.challenge-card small{
+
+    color:#91a0b6;
+}
+
+/* Countdown */
+
+.countdown-section{
+
+    margin-top:90px;
+
+    text-align:center;
+}
+
+.countdown-section h3{
+
+    color:white;
+
+    font-size:34px;
+
+    margin-bottom:35px;
+}
+
+.countdown{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+.time-box{
+
+    width:140px;
+
+    padding:28px 15px;
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:16px;
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.time-box h2{
+
+    color:#4c83ff;
+
+    font-size:42px;
+
+    margin-bottom:8px;
+}
+
+.time-box span{
+
+    color:#d7deea;
+}
+
+/* Button */
+
+.arena-bottom{
+
+    text-align:center;
+
+    margin-top:70px;
+}
+
+.arena-bottom a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#2563eb;
+
+    padding:16px 42px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:600;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.challenge-area{
+
+grid-template-columns:1fr;
+
+}
+
+.arena-heading{
+
+width:100%;
+
+}
+
+.arena-heading h2{
+
+font-size:42px;
+
+}
+
+}
+
+/* ==========================
+   Animation
+========================== */
+
+/* Background Glow Animation */
+
+.arena-bg{
+
+    animation: glowMove 10s ease-in-out infinite alternate;
+
+}
+
+@keyframes glowMove{
+
+    from{
+
+        transform: translate(0,0) scale(1);
+
+    }
+
+    to{
+
+        transform: translate(120px,80px) scale(1.3);
+
+    }
+
+}
+
+
+/* Floating Icon */
+
+.icon{
+
+    animation: float 3s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform: translateY(0);
+
+    }
+
+    50%{
+
+        transform: translateY(-10px);
+
+    }
+
+    100%{
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+/* Challenge Card Hover */
+
+.challenge-card{
+
+    transition: .4s;
+
+}
+
+.challenge-card:hover{
+
+    transform: translateY(-12px);
+
+    border-color:#4b83ff;
+
+    box-shadow:0 0 30px rgba(75,131,255,.35);
+
+}
+
+
+/* Stats Hover */
+
+.stat-box{
+
+    transition:.35s;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#4b83ff;
+
+}
+
+
+/* Button */
+
+.arena-bottom a{
+
+    transition:.35s;
+
+}
+
+.arena-bottom a:hover{
+
+    background:#3d73f5;
+
+    transform:scale(1.05);
+
+}
+
+
+/* Progress Animation */
+
+.progress-bar{
+
+    animation: loading 2.5s ease;
+
+}
+
+@keyframes loading{
+
+    from{
+
+        width:0;
+
+    }
+
+}
+
+/* ----AI part END--------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* ----footer--- */
+
+
+.footer{
+    background:#0D1B2A;
+  flex-direction:column;
+    gap:25px;
+    padding:40px 100px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.social-links{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+
+.social-links img{
+    width:28px;
+    height:28px;
+}
+
+.footer hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+    margin-bottom:25px;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:white;
+    font-size:15px;
+      opacity: 0.5;
+}
+
