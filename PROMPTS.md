@@ -101,7 +101,6 @@ TECHNICAL REQUIREMENTS
 Generate:
 - Semantic HTML
 - Organized CSS
-- Vanilla JavaScript only
 - No Bootstrap
 - No Tailwind CSS
 - No React
